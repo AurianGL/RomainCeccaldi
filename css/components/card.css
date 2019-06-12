@@ -1,0 +1,41 @@
+.romain{
+  width: 100%;
+  height: auto;
+}
+
+.bio{
+  padding: 5%;
+  background-color: black;
+  color: white;
+}
+
+.bio p{
+  text-align: justify;
+}
+
+.bio-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.books img{
+  width: 100%;
+  height: auto;
+}
+
+.books {
+  padding: 5%;
+}
+
+.books-thumbnail{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.books button {
+  padding-top: 3px
+  border-radius : 0px;
+}
