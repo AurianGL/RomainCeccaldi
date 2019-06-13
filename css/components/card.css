@@ -7,6 +7,7 @@
   padding: 5%;
   background-color: black;
   color: white;
+  text-align: center;
 }
 
 .bio p{
@@ -32,6 +33,12 @@
   color: black;
 }
 
+.bio h2 {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+}
+
 
 
 .books-thumbnail{
@@ -48,4 +55,18 @@
 
 .travel-maps {
   padding-top: 50px;
+}
+
+.creation {
+  padding:20px;
+  text-align: center;
+  background-color: #DE525B;
+}
+
+.creation h2{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+  background-color: #DE525B;
+  padding: 10px;
 }
