@@ -3,12 +3,14 @@
 	color: black !important;
 	font-weight: bold !important;
 	background: white;
-	height: 45px;
-	position: fixed;
+	height: auto;
 	z-index: 2;
 	background-size: cover;
 	width : 100%;
 	justify-content: space-between;
+  position: fixed;
+  box-shadow: 0px 7px 18px black;
+
 }
 
 

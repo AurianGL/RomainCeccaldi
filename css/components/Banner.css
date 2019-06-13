@@ -1,11 +1,8 @@
 .banner {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://picsum.photos/400/600.jpg");
-  height: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   position: relative;
-  top: 0%;
+  width: auto;
+  height: 100%;
+
 }
 
 .banner-text {
@@ -15,6 +12,9 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 4px solid white;
 }
 
 .banner-text button {
@@ -28,9 +28,83 @@
   cursor: pointer;
   font-family: 'Roboto', sans-serif;
   font-weight: bolder;
+
 }
 
 .banner p {
   font-size: 150%;
 }
 
+.banner-crea {
+  background-image: radial-gradient(ellipse at center, rgba(125,185,232,0) 0%,rgba(12,28,63,1) 100%), url("https://picsum.photos/400/600");
+  background-color: black;
+  height: 50%;
+  width: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.banner-monde {
+  background-image: radial-gradient(ellipse at center, rgba(125,185,232,0) 0%,rgba(12,28,63,1) 100%), url("https://picsum.photos/400/600");
+  height: 50%;
+  width: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.text-crea {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+  z-index: 3;
+}
+
+.text-monde {
+  position: absolute;
+  bottom: 20%;
+  right: 20%;
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+  z-index: 3;
+}
+
+.banner-crea img {
+  width: auto;
+  height: 80%;
+  padding : 20px;
+
+}
+
+.banner-monde img {
+  width: auto;
+  height: 80%;
+  padding : 20px;
+}
