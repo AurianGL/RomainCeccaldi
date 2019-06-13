@@ -26,7 +26,13 @@
 
 .books {
   padding: 5%;
+  background: white;
+  width: 100%;
+  height: auto;
+  color: black;
 }
+
+
 
 .books-thumbnail{
   display: flex;
@@ -38,4 +44,8 @@
 .books button {
   padding-top: 3px
   border-radius : 0px;
+}
+
+.travel-maps {
+  padding-top: 50px;
 }
