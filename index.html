@@ -20,16 +20,16 @@
   <div class="onglet">
       <ul class="nav ">
         <li class="nav-item">
-          <a class="nav-link " href="#">Home</a>
+          <a class="nav-link " href="Home">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Histoires des gens du Monde</a>
+          <a class="nav-link" href="monde">Histoires des gens du Monde</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Création</a>
+          <a class="nav-link" href="creation">Création</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Boutique</a>
+          <a class="nav-link" href="shop">Boutique</a>
         </li>
       </ul>
   </div>
@@ -58,9 +58,9 @@
     <div class="banner-monde">
       <img src="https://picsum.photos/600/400" alt="">
     </div>
-    <h1 class="banner-text">ROMAIN<br>CECCALDI</h1>
-    <button class="text-crea">CREATION</button>
-    <button class="text-monde">HISTOIRES <br> DES GENS DU MONDE</button>
+    <h1 class="banner-text" id="home">ROMAIN<br>CECCALDI</h1>
+    <a href="creation"><button class="text-crea">CREATION</button></a>
+    <a href="monde"><button class="text-monde">HISTOIRES <br> DES GENS DU MONDE</button></a>
     <i class="fas fa-angle-double-down" style="position: absolute; left: 50%; right: 50%; bottom :10px; color: white; font-size: 5em;"></i>
   </div>
 
@@ -100,7 +100,7 @@
   </div>
 
   <div class="container-fluid creation">
-    <h2>CREATION</h2>
+    <h2 id="creation">CREATION</h2>
     <div class="row">
        <div class="col-12 col-sm-4 col-lg-4">
          <!-- SnapWidget -->
