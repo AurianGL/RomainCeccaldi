@@ -70,3 +70,17 @@
   background-color: #DE525B;
   padding: 10px;
 }
+
+.shop {
+  max-width: 100%;
+  height: auto;
+}
+
+.shop-button{
+  border-radius: 0 !important;
+}
+
+.insta {
+  max-width: 100%;
+  height: auto;
+}

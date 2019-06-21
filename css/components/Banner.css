@@ -37,7 +37,7 @@
 }
 
 .banner-crea {
-  background-image: linear-gradient(160deg, rgba(23,30,119,1) 0%,rgba(204,38,198,1) 36%,rgba(35,224,111,1) 75%,rgba(125,185,232,1) 100%);
+  background-image: black;
   background-color: black;
   height: 50%;
   width: auto;
@@ -48,11 +48,12 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
+    padding-top: 50px;
+
 }
 
 .banner-monde {
-  background-image: linear-gradient(20deg, rgba(23,30,119,1) 0%,rgba(204,38,198,1) 36%,rgba(35,224,111,1) 75%,rgba(125,185,232,1) 100%);
-  background-color: black;
+  background-color: #F7E2B3;
   height: 50%;
   width: auto;
   background-position: center;
@@ -98,10 +99,6 @@
   z-index: 3;
 }
 
-.banner-crea img {
-  width: auto;
-  height: 80%;
-  padding : 20px;
 
 }
 
@@ -117,4 +114,21 @@
   right: 50%;
   bottom :10px;
   color: white;
+}
+
+.insta-button {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+  z-index: 3;
 }
