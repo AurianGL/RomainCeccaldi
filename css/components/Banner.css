@@ -1,8 +1,8 @@
 .banner {
   position: relative;
+  background: black;
   width: auto;
   height: 100%;
-
 }
 
 .banner-text {
@@ -24,7 +24,7 @@
   display: inline-block;
   padding: 10px 25px;
   color: black;
-  background-color: #ddd;
+  background-color: #F7E2B3;
   text-align: center;
   cursor: pointer;
   font-family: 'Roboto', sans-serif;
@@ -37,12 +37,12 @@
 }
 
 .banner-crea {
+  position: relative;
+  margin: auto;
   background-image: black;
   background-color: black;
   height: 50%;
-  width: auto;
-  background-position: center;
-  background-repeat: no-repeat;
+  width: 800px;
   background-size: cover;
   text-align: center;
   display: flex;
