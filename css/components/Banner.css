@@ -2,7 +2,7 @@
   position: relative;
   background: black;
   width: auto;
-  height: 100%;
+  height: auto;
 }
 
 .banner-text {
@@ -18,17 +18,6 @@
   border: 4px solid white;
 }
 
-.banner-text button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 10px 25px;
-  color: black;
-  background-color: #F7E2B3;
-  text-align: center;
-  cursor: pointer;
-  font-family: 'Roboto', sans-serif;
-  font-weight: bolder;
 
 }
 
@@ -41,28 +30,30 @@
   margin: auto;
   background-image: black;
   background-color: black;
-  height: 50%;
-  width: 800px;
+  height: auto;
+  max-width: 800px;
   background-size: cover;
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: space-around;
-    padding-top: 50px;
+  padding: 100px 20px 50px 20px;
 
 }
 
 .banner-monde {
-  background-color: #F7E2B3;
-  height: 50%;
-  width: auto;
+  position: relative;
+  background-color: #DE525B;
+  height: auto;
+  max-width: auto;
+  margin: auto;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+
+  padding: 50px 20px 50px 20px;
+
 }
 
 .text-crea {
@@ -85,13 +76,13 @@
 .text-monde {
   position: absolute;
   bottom: 20%;
-  right: 20%;
+  right: 55%;
   border: none;
   outline: 0;
   display: inline-block;
   padding: 10px 25px;
   color: black;
-  background-color: #ddd;
+  background-color: #DE525A;
   text-align: center;
   cursor: pointer;
   font-family: 'Roboto', sans-serif;
@@ -100,35 +91,32 @@
 }
 
 
-}
 
-.banner-monde img {
-  width: auto;
-  height: 80%;
-  padding : 20px;
-}
 
-.fa-angle-double-down {
-  position: absolute;
-  left: 50%;
-  right: 50%;
-  bottom :10px;
-  color: white;
-}
+
 
 .insta-button {
-  position: absolute;
-  top: 20%;
-  left: 20%;
+  top: 50%;
   border: none;
   outline: 0;
-  display: inline-block;
   padding: 10px 25px;
   color: black;
-  background-color: #ddd;
-  text-align: center;
+  background-color: #DE525A;
   cursor: pointer;
   font-family: 'Roboto', sans-serif;
   font-weight: bolder;
   z-index: 3;
+}
+
+.image-map{
+  max-width: auto;
+  max-height: 300px;
+
+}
+
+.center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
 }
