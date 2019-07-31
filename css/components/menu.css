@@ -1,33 +1,33 @@
 .categ {
 	display: flex;
-	color: black !important;
+	color: white !important;
 	font-weight: bold !important;
-	background: white;
+	background: black;
 	height: auto;
 	z-index: 10;
-	background-size: cover;
-	width : 100%;
+  width : 100%;
 	justify-content: space-between;
   position: fixed;
-  box-shadow: 0px 7px 18px black;
-
+  justify-content: center;
+/*  box-shadow: 0px 7px 18px black;
+*/
 }
 
 
 a:hover {
-	color: red !important;
+	color: grey !important;
 }
 
 a:link {
-	color: black !important;
+	color: white !important;
 }
 
 a:visited {
-	color: black !important;
+	color: white !important;
 }
 
 a:active {
-	color: black !important;
+	color: white !important;
 }
 
 
